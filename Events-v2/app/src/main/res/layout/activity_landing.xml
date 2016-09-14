@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.events.hanle.events.LandingActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are invited for an event please give your confirmation"
+        android:id="@+id/textView4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="75dp"
+        android:id="@+id/linearLayout">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgroup"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Attending"
+                android:layout_weight="1"
+                android:id="@+id/attending"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/not_attending"
+                android:text="Not Attending"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/next"
+        android:background="@drawable/admin_button"
+        android:shadowColor="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="next"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u00A9 2016 Hanle Solutions"
+        android:id="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:typeface="sans"
+        android:textColor="#149CB1" />
+
+
+</RelativeLayout>

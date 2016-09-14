@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "82826241058",
+    "project_id": "events-1295"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82826241058:android:e63e7707aae52e96",
+        "android_client_info": {
+          "package_name": "com.events.hanle.events"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOyMHLZI1sWG3TdU1PGDa1WTcgVTlE1J4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
